@@ -1,0 +1,19 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+}
+
+fieldset{
+    margin-bottom: 10px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+}
+
+.grid-button-container input {
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
