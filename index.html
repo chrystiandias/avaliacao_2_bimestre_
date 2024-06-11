@@ -1,47 +1,60 @@
 <!DOCTYPE html>
 <html lang="pt-br">
- 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
- 
 <body>
-    <header class="grid-header-container">
-        <div class="top-left">
-            <h1>[Header]</h1>
-        </div>
+
+    <header class="container">
+        <h1>[Header]</h1>
     </header>
-    <h2>[Nav]</h2>
-    <li><a href="">Item 1</a></li>
-    <li><a href="">Item 2</a></li>
-    <li><a href="">Item 3</a></li>
-    <li><a href="">Item 4</a></li>
-    <li><a href="">Item 5</a></li>
- 
-    <h2>[Article]</h2>
-    <h2>[Article Header]</h2>
-    <h2>[Section]</h2>
- 
-    <h3>[Footer]</h3>
-    <p>
-        Subscribe to our newsietter
-    </p>
-    <div class="top-left">
-        <label for="email">E-mail</label>
-        <input type="email" name="email" required>
- 
-    </div>
- 
-    <footer class="grid-header-container">
- 
+
+    <section>
+        <nav class="container">
+            <div class="itens">
+                <h1 class="nave">[Nav]</h1>
+                <a href="#">Item 1</a>
+                <a href="#">Item 2</a>
+                <a href="#">Item 3</a>
+                <a href="#">Item 4</a>
+                <a href="#">Item 5</a>
+            </div>
+
+        </nav>
+    </section>
+
+    <article class="container">
+        <div>
+            <h1 class="artico">[Article] [Aside]</h1>
+            <header>
+                <h3>[Article Header] [Aside Header]</h3>
+            </header>
+            <section>
+                <p>[Article Paragraph] [Aside Paragraph]</p>
+            </section>
+        </div>
+
+    </article>
+
+    <footer class="container">
+        <div>
+            <h1>[Footer]</h1>
+            <p>Subscribe to our newsletter</p>
+            <div class="botão">
+                <label for="email">E-mail</label>
+                <input type="email" name="exemplo@gmail.com" required>
+                <button>Sumbit</button>
+            </div>
+        </div>
+
     </footer>
- 
- 
- 
- 
+    
 </body>
- 
 </html>
+
+
+
+

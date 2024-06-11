@@ -1,0 +1,48 @@
+body {
+    background: linear-gradient(white, #21496b);
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+}
+
+.container {
+    background-color: white;
+    opacity: 80%;
+}
+
+h1 {
+    padding-left: 430px;
+}
+
+h3 {
+    padding-left: 420px;
+}
+
+.nave {
+    padding-left: 460px;
+}
+
+.artico {
+    padding-left: 445px;
+}
+
+.section {
+    padding-left: 445px;
+}
+
+p {
+    padding-left: 400px;
+}
+
+.link {
+    padding-left: 430px;
+}
+
+.botao {
+    padding-left: 350px;
+}
+
+a:hover {
+    color: #21496b;
+    transition: 0.7s;
+}
